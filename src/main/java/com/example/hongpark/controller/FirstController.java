@@ -11,6 +11,8 @@ public class FirstController {
         model.addAttribute("username", "컴공 이범기");    //받아온 model에 변수 username을 이범기로 초기화
         return "greetings";                                                //greetings을 return 하여 template 안에있는 greetings을 보여준다.
     }
+
+
 }
 
 
